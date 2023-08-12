@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.log {
+    font-size: 1.4em;
+}
+
+#username {
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#senha {
+    height: 30px;
+    border-radius: 10px;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+div#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > div > h1 {
+   
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+main > div > h1 > img {
+    height: 100px;
+}
