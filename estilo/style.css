@@ -42,11 +42,12 @@ div#login {
 }
 
 main > div > h1 {
-    font-family: 'Caprasimo', cursive;
-    font-weight: bolder;
+    /* font-family: 'Caprasimo', cursive; */
+    font-weight: normal;
     font-size: 2.5em;
 }
 
 main > div > h1 > img {
     height: 75px;
+    border-radius: 50%;
 }
