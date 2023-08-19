@@ -1,53 +1,75 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
-
 * {
-    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-body {
+body, html {
     height: 100vh;
     width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.log {
-    font-size: 0.9em;
-    
-}
-
-#username {
-    height: 30px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-#senha {
-    height: 30px;
-    border-radius: 10px;
 }
 
 main {
-    height: 100vh;
     position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
-div#login {
+section#login {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: url(../imagens/sparrow.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+section#login > div#form {
+    position: relative;
+    background-color: #e2c8b8;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.164);
+    border-radius: 15px;
+    height: 330px;
+    width: 400px;
+}
+
+form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main > div > h1 {
-    /* font-family: 'Caprasimo', cursive; */
-    font-weight: normal;
-    font-size: 2.5em;
+form > div.campo {
+    display: block;
+    height: 80px;
 }
 
-main > div > h1 > img {
-    height: 75px;
-    border-radius: 50%;
+form > 
+
+form > input[type=submit] {
+    height: 35px;
+    width: 150px;
+    background-color: #733822;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #945d48;
 }

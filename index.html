@@ -8,22 +8,23 @@
 </head>
 <body>
     <main>
-        <div id="login">
-            <h1> <img src="imagens/sparrow.jpg" alt="logo">Sparrow</h1>
-            <form autocomplete="off">
-                <div>
-                    <label for="username" class="log">Usuário:</label> <br>
-                    <input type="text" name="username" id="username" required placeholder="Insira o usuário...">
-                </div>
-                <div>
-                   <label for="senha" class="log" style="margin-right: 12px;">Senha:</label> <br>
-                    <input type="password" name="senha" id="senha" placeholder="Insira a senha...">
-                </div>
-                <div>
+        <section id="login">
+            <div id="imagem"></div>
+            <div id="form">
+                <form>
+                    <div class="campo">
+                        <label for="usuario">Usuário:</label> <br>
+                        <input type="text" name="usuario" id="usuario">
+                    </div>
+                    <div class="campo">
+                        <label for="senha">Senha:</label> <br>
+                        <input type="password" name="senha" id="senha">
+                    </div>
                     <input type="submit" value="Login">
-                </div>
-            </form>
-        </div>
+                </form>
+            </div>
+
+        </section>
     </main>
 </body>
 </html>
