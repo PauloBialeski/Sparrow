@@ -20,7 +20,7 @@ main {
 
 section#login {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -40,8 +40,8 @@ section#login > div#form {
     position: relative;
     background-color: #e2c8b8;
     border-radius: 15px;
-    height: 330px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.267);
 }
 
