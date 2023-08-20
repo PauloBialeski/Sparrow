@@ -27,7 +27,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: url(../imagens/logo-sparrow.png) no-repeat;
+    background: url(../imagens/Sparrow_icon.svg) no-repeat;
     background-size: contain;
     height: 140px;
     width: 140px;
