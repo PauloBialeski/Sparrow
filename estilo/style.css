@@ -29,10 +29,10 @@ section#login > div#imagem {
     display: block;
     background: url(../imagens/logo-sparrow.png) no-repeat;
     background-size: contain;
-    height: 130px;
-    width: 130px;
+    height: 140px;
+    width: 140px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section#login > div#form {
@@ -70,6 +70,10 @@ form > div.campo > input#usuario {
     box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.267);
 }
 
+form > div.campo > input#usuario:focus {
+    outline: 0;
+} 
+
 form > div.campo > input#senha {
     height: 35px;
     width: 250px;
@@ -79,6 +83,10 @@ form > div.campo > input#senha {
     padding: 8px;
     box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.267);
 }
+
+form > div.campo > input#senha:focus {
+    outline: 0;
+} 
 
 form > input[type=submit] {
     height: 35px;
