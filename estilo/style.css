@@ -105,4 +105,5 @@ form > input[type=submit] {
 form > input[type=submit]:hover {
     background-color: #945d48;
     border: 1px solid #945d48;
+    box-shadow: none;
 }
