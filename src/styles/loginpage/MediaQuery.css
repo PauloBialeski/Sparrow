@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) { /* Para Desktop */
+    section#login > div#form {
+        height: 330px;
+        width: 400px;
+    }
+
+    section#login {
+        top: 40%;
+    }
+}
