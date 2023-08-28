@@ -6,7 +6,7 @@ export default function LoginPage () {
                <div id="form">
                    <form  method="post" autocomplete="off">
                         <div className="campo">
-                            <label for="usuario">Usuário:</label> <br/>
+                            <label for="usuario">Usuário:5</label> <br/>
                             <input type="text" name="usuario" id="usuario" placeholder="Insira o usuário..." minlength="5" maxlength="15" required></input>
                         </div>
                         <div className="campo">
